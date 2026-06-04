@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use("/api/auth", authRoutes);
 
-app.get("/api/auth", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hospital API Running");
 });
 
